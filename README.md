@@ -149,11 +149,15 @@ Teste o Bloqueio: Erre a senha 5 vezes para confirmar que o bloqueio de 30 segun
 Teste o Usuário Comum: Cadastre um novo usuário pelo index.php e logue com ele. O painel administrativo e o botão de listagem não devem aparecer.
 
 Gerenciamento de usuários: Administradores terão permissão para banir usuários que acharem necessários ou que desrespeitam outros usuários na página.
+
+
   Teste Edição de Usuário (Admin):
      Faça login como administrador.
      Acesse a lista de usuários e clique em **Editar** no usuário comum que você acabou de criar.
      Altere o **Nome** e/ou o **E-mail**.
      Tente alterar o **Nível de Acesso** de 'user' para 'admin' e salve. Confirme que os dados foram atualizados no banco de dados.
+
+     
  Teste Exclusão com Validações de Segurança (Admin):
     Ainda como administrador, tente excluir sua própria conta. O sistema deve emitir uma mensagem de erro: "Você não pode excluir sua própria conta."
     Tente excluir o outro usuário que agora tem nível de acesso 'admin'. O sistema deve emitir uma mensagem de erro: "Você não pode excluir outro administrador."
