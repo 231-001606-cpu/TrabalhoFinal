@@ -174,7 +174,4 @@ Interface da Wiki: Criar páginas públicas para visualização dos dados (sem n
 Sessão de comentários: Criar uma sessão individual em cada página para que usuários opinem e discutam na comunidade.
 
 
-    Teste Exclusão com Validações de Segurança (Admin)**:
-    Ainda como administrador, tente excluir sua própria conta. O sistema deve emitir uma mensagem de erro: "Você não pode excluir sua própria conta."
-    Tente excluir o outro usuário que agora tem nível de acesso 'admin'. O sistema deve emitir uma mensagem de erro: "Você não pode excluir outro administrador."
-    Crie um Terceiro Usuário** (nível 'user') e tente excluí-lo. A exclusão deve ser bem-sucedida, e o usuário deve ser removido da lista.
+    
