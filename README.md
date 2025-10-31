@@ -167,8 +167,6 @@ Gerenciamento de usuários: Administradores terão permissão para banir usuári
 ## Próximos Passos (Evolução para a Wiki)
 Estrutura de Conteúdo: Criar tabelas específicas para personagens, relíquias, builds, e tier_lists.
 
-CRUD Admin: Implementar o formulário completo (CRUD) na área administrativa (cadastro_usuario.php) para o administrador poder inserir e editar os dados da Wiki.
-
 Interface da Wiki: Criar páginas públicas para visualização dos dados (sem necessidade de login).
 
 Sessão de comentários: Criar uma sessão individual em cada página para que usuários opinem e discutam na comunidade.
