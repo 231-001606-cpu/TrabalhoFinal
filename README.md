@@ -28,7 +28,7 @@ O sistema de Login/Admin implementado agora é a base para o futuro gerenciament
 | **Dashboard Restrito** | Área dedicada onde o administrador pode visualizar todos os usuários cadastrados. |
 | **Cadastro de Usuários** | Criação de novos usuários com validação de campos e armazenamento seguro da senha. |
 | **Interface Estilizada** | Layout adaptado ao tema escuro do dashboard (via `css/style.css`). |
-
+| **Gerenciamento de Usuários (CRUD)** | Implementação de **edição** de dados e nível de acesso (`editar_usuario.php`), e **exclusão** de contas (`excluir_usuario.php`), com validações de segurança (proibição de auto-exclusão e exclusão de outros admins). |
 ---
 
 ## Estrutura do Projeto
@@ -59,19 +59,7 @@ O sistema de Login/Admin implementado agora é a base para o futuro gerenciament
 
 ---
 
-## Funcionalidades Implementadas (Fase Atual)
 
-| Funcionalidade | Descrição |
-| :--- | :--- |
-| **Autenticação Segura** | Login de usuário com verificação de senha via `password_verify()` e proteção contra Session Fixation. |
-| **Controle de Tentativas (Cooldown)** | Bloqueio temporário (configurado para **30 segundos** para testes) após 5 tentativas de login falhas. |
-| **Restrição de Acesso Admin** | Exibição condicional da listagem de usuários e acesso à área administrativa, verificando o `nivel_acesso` via Cookie. |
-| **Dashboard Restrito** | Área dedicada onde o administrador pode visualizar todos os usuários cadastrados. |
-| **Cadastro de Usuários** | Criação de novos usuários com validação de campos e armazenamento seguro da senha. |
-| **Interface Estilizada** | Layout adaptado ao tema escuro do dashboard (via `css/style.css`). |
-| **Gerenciamento de Usuários (CRUD)** | Implementação de **edição** de dados e nível de acesso (`editar_usuario.php`), e **exclusão** de contas (`excluir_usuario.php`), com validações de segurança (proibição de auto-exclusão e exclusão de outros admins). |
-
----
 
 ## Estrutura do Projeto
 
